@@ -1,0 +1,87 @@
+@charset 'utf-8';
+
+:root {
+    --theme-color: #002374;
+    --theme-background-color: #f8f8f8;
+    --theme-font-family: "Poppins", "Open Sans", Arial, sans-serif;
+}
+
+body {
+    font-family: var(--theme-font-family);
+    font-weight: 300;
+    background-color: var(--theme-background-color);
+}
+
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    line-height: 1.9;
+}
+
+/* Navigation Tab  */
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+main {
+    color: #333;
+    width: 600px;
+}
+
+main>h1 {
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+}
+
+nav>div {
+    color: #fff;
+    background-color: #333;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+    padding: 25px 50px;
+}
+
+nav>div:hover {
+    color: #888;
+    background-color: #ccc;
+}
+
+nav>div.selected {
+    color: #333;
+    background-color: #fff;
+    cursor: default;
+    box-shadow: 0px -3px 3px 1px rgba(0, 0, 0, 0.1)
+}
+
+section {
+    background-color: #fff;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.1)
+}
+
+section>div {
+    display: none;
+    padding: 25px 50px;
+    transition: all 0.25s ease-in-out;
+    opacity: 0;
+}
+
+section>div.selected {
+    display: block;
+    opacity: 1;
+}
