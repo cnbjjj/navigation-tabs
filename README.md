@@ -3,7 +3,7 @@
 
 In this tutorial, I will demonstrate how to use CSS and JavaScript together to create a simple navigation tab menu. This type of menu is perfect for providing quick navigation within user interfaces, enhancing the interactivity and user experience of websites.
 
-First, check out the [demo](https://cnbjjj.github.io/navigation-tabs/demo.html).
+First, check out the [demo](https://cnbjjj.github.io/navigation-tabs/demo.html){:target="_blank"}.
 
 ![](./assets/img/screenshot.png)
 
