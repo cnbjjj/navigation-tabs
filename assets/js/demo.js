@@ -4,8 +4,8 @@ function switchTab(nav, index) {
     const currentTab = document.querySelector('nav > .selected');
     if (nav === currentTab)
         return;
-    currentTab.classList.toggle('selected');
-    nav.classList.toggle('selected');
+    currentTab.classList.remove('selected');
+    nav.classList.add('selected');
     const allTabContent = document.querySelectorAll('section > div');
     allTabContent.forEach((content, contentIndex) => {
         if (content.classList.contains('selected') || contentIndex === index) {
